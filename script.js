@@ -1,6 +1,4 @@
-// =======================================================================
-// PART 1: JAVASCRIPT BASICS - Variables and Conditionals
-// =======================================================================
+// PART 1: JAVASCRIPT BASICS - Variables and Conditional
 
 // Some variables I'm using in my program
 var userName = "";
@@ -68,9 +66,7 @@ function processUserInfo() {
     console.log("User age: " + userAge);
 }
 
-// =======================================================================
 // PART 2: JAVASCRIPT FUNCTIONS - Two Custom Functions
-// =======================================================================
 
 // FUNCTION 1: Calculator function
 function calculator(number1, number2, operation) {
@@ -145,9 +141,7 @@ function generateRandomQuote() {
     document.getElementById("calculationResult").innerHTML = quoteHTML;
 }
 
-// =======================================================================
-// PART 3: JAVASCRIPT LOOPS - Two Loop Examples
-// =======================================================================
+// PART 3: JAVASCRIPT LOOPS - Two Loop Example
 
 // LOOP EXAMPLE 1: For loop
 function demonstrateForLoop() {
@@ -265,9 +259,7 @@ function animateCounter(targetNumber) {
     }, 200);
 }
 
-// =======================================================================
 // PART 4: DOM MANIPULATION - Three DOM Interactions
-// =======================================================================
 
 // DOM INTERACTION 1: Change background color
 function changeBackgroundColor() {
@@ -365,3 +357,4 @@ function createNewElement() {
     dynamicContent.appendChild(newDiv);
     elementCounter = elementCounter + 1;
 }
+
